@@ -1,0 +1,100 @@
+body {
+  font-family: arial;
+  font-size: 18px;
+  background: #DCDCDC;
+}
+
+nav {
+  text-align: center;
+}
+
+.layout {
+  text-align: center;
+  background: #000000;
+  color: #FFFFFF;
+  max-width: 100%;
+  padding: 2PX;
+  height: 300px;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 26px;
+  text-shadow: 1px 1px 1px #000000;
+  color: #4682B4;
+  text-align: center;
+}
+
+.bloco {
+  text-align: center;
+  background: #B0C4DE;
+  padding: 5px;
+
+}
+
+#video {
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  text-shadow: 1px 1px 1px #4169E1;
+}
+
+hr {
+  max-width: 70%;
+}
+
+#principal {
+  display: grid;
+  grid-template-areas: "foto texto";
+}
+
+.foto {
+
+  padding: 5%;
+}
+
+.texto {
+
+  padding: 5%;
+}
+
+.description {
+  text-align: left;
+}
+
+
+#natal {
+  border-radius: 20%;
+  max-width: 70%;
+  text-align: right;
+}
+
+#formulario {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4500
+}
+
+#interface {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  background: #FFFFFF;
+  padding: 20px 2px 2px 2px;
+  box-shadow: 0px 0px 10px #000;
+}
